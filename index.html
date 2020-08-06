@@ -1,34 +1,397 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Eric Newton</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
-        
-        
-        <link rel = "stylesheet" href = "css/styles.css">
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"></script>
+    <link href="aos.css" rel="stylesheet">
+    <script src="aos.js"></script>
 
+    
+<style>
+    body{
+        background: #222831;
+    }
+    #intro-h1{
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+        font-size: 1300%;
+        font-weight: 300;
+    }
+    #intro-h2{
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+        font-size: 500%;
+        font-weight: 300;
+    }
+    
+    h2{
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+        font-size: 8vmin;
+        font-weight: 300;
+        line-height:0vh;
+    }
+    
+    h3{
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+        font-size: 2vmin;
+        line-height: 2vh;
+        font-weight: 300;
+    }
+    h4{
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+        font-size: 2vmin;
+        line-height: 2vh;
+        font-weight: 300;
+    }
+    p{
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+        font-size: 1.5vmin;
+        line-height: 2vh;
+        font-weight: 300;
+    }
+    li{
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+        font-size: 1.5vmin;;
+        font-weight: 300;
+    }
+
+    
+    .background{
+        background: #222831;
+        width: 100%;
+        height: 100%;
+    }
+    .rain{
+        position:absolute;
+        height:2000px;
+        width:100%;
+        top:0px;
+        bottom:0px;
+    }
+    
+    
+    
+
+   .drop0{
+        left: 2%;
+        position: absolute;
+        animation-name:dropping0;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
         
         
-    </head>
+    }
+    @keyframes dropping0{
+        from{top:-10%}
+        to{top: 1950px}
+        
+    } 
+    
+    
+    #introduction{
+        text-align:center;
+        line-height:0vh;
+        margin-top: 20%;
+        animation-name: introFade;
+        animation-delay: 1.25s;
+        animation-duration: 1.25s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+        opacity: 0;
+        
+    }
+    
+    #introduction-text2{
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+        font-size: 500%;
+        font-weight: 300;
+        animation-name: introFade;
+        animation-delay: 2.25s;
+        animation-duration: 1.25s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+    
+    @keyframes introFade{
+        from{opacity: 0}
+        to{opacity: 1}
+        
+    }
+    
+    .school-img{
+        width: auto;
+    }
+    .section-block{
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color:rgba(57, 62, 70, 0.5);
+        border-radius:10%;
+        padding:1%; 
+    }
 
-    <body>
-        <div class = "name-picture">
-                <img class = "circular profile-pic" src = "github pp square.jpg" alt = "Github Profile Picture" width = "50%">
-                <div class = "name-block">
-                    <div class = "flex-container">
-                        <h1  class = "name">Eric Newton</h1>
-                        <h2  class = "name-subtitle">Computer Science Student</h2>
-                    </div>
-                </div>
 
+
+
+
+    
+    .drop-image{
+        background:linear-gradient(#393e46, #00adb5 );
+        width: 3px;
+        height: 75px;
+    }
+    
+    .dot {
+      height: 75%;
+      width: 75%;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+    display: flex;justify-content: center;
+        
+    }
+    
+    #centre-dot{
+      height: 10px;
+      width: 10px;
+      background-color: #000000;
+      border-radius: 50%;
+        display: flex;justify-content: center;
+    }
+    
+    
+        
+     #minute-hand{
+         position:absolute;
+         height:19%;
+         width:1%;
+         background-color: #000;
+         transform-origin: bottom;
+         animation-name: rotateAni;
+         animation-duration: 1s;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+         
+            
+    }
+    
+    
+    #hour-hand{
+        position:absolute;
+        width:100%;
+        height:70%;
+        top:100%;
+         background-color: #000;
+         animation-name: rotateAni;
+         transform-origin: top;
+
+         animation-duration: 1.083333333333333333s;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+        animation-direction: reverse;
+            z-index: 1;
+    }
+    
+    @keyframes rotateAni{
+        0%{ 
+            transform: rotate(0deg);
+        }
+        25%{
+            transform: rotate(90deg);
+        }
+        50%{
+            transform: rotate(180deg);
+        }
+        75%{
+            transform: rotate(270deg);
+        }
+        100%{
+            transform: rotate(359deg);
+        }
+    }
+
+
+    
+    
+    
+    
+    </style>
+</head>
+
+<body>
+    
+    
+    
+    
+    <div class="rain">
+<!--        PUT RAIN HERE-->
+        <div class = "drop0">
+            <div class = "drop-image"></div>
         </div>
+    </div>
+    
+    <div id = "introduction">
+        <div>
+            <h1 id = "intro-h1">Hi</h1>
+            <h2 id = "introduction-text2">I'm Eric Newton</h2>
+        </div>
+        
+    </div>
+    <div style = "height:45vh;"></div>
+    <div style = "overflow: auto;vertical-align: middle; padding-left: 10%; padding-right:10%;">
+        <table>
+            <tr  style = "overflow: auto;  height : 5vw;">
+                <td style="width:50%; ">
+                    <h3 style = "padding-right:10%; font-size 5vh;"> I'm a Vancouver based Computer Science student currently studying at The University of British Columbia. I have a passion for computers, mathematics, and education. My aim is to make user-friendly programs with robust and reliable code.</h3>
+                </td>
+                <td style = "">
+                    <img style = "border-radius: 50%; width:35vw; height :35vw; padding-left:10%; float:right;" src = "Eric Headshot Square.jpg">
+                </td>
+            
+            </tr>
+        </table>
 
-    </body>
+    </div>
+    <div class = "section-block">
+<!--    Education Panel-->
+        <h2>Education</h2>
+        <hr>
+        <table style = "width:100%">
+            <tr>
+                <td style = "width : 15vw;">
+                    <div >
+            <!--        ubc lol-->
+                        <img src = "ubc logo.png" style = "width:100%">
+
+                    </div>
+                </td>
+                <td style="text-align : left; vertical-align: top;">
+                    <h3>Unviversity of British Columbia</h3>
+                    <h4>Major in Computer Science, B.Sc.</h4>
+                    <p>Expected Graduation May 2021</p>
+                    
+            
+                
+                </td>
+                <td style="text-align : left; line-height: 0.5vh; vertical-align: top;">
+                <h3>Relevant Course Work:</h3>
+                    <ul style ="line-height: 1.5vh; text-align : left;">
+                        
+                        <li>Computation, Programs, and Programming</li>
+                        <li>Models of Computation</li>
+                        <li>Software Construction</li>
+                        <li>Computer Systems</li>
+                        <li>Algorithms and Data Structures</li>
+                        <li>Numerical Approximation and Discretization</li>
+                        <li>Relational Databases</li>
+                        <li>Software Engineering</li>
+                        <li>Computer Graphics</li>
+                        <li>Applied Linear Algebra</li>
+                    
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style = "width :1vw;">
+                    <div>
+            <!--        langurla-->
+                        <img src = "langara logo.png" style = "width:100%">
+                    </div>
+                </td>
+                <td style="text-align : left; vertical-align: top;">
+                    <h3 style = "line-height: 2vh;">Langara College</h3>
+                    <h4 style = "line-height: 2vh;">Major in Microbiology</h4>
+                    <p style = "line-height: 2vh;">2016-2017</p>
+                    
+            
+                
+                </td>
+                <td style="text-align : left; line-height: 0.5vh; vertical-align: top;">
+                <h3>Relevant Course Work:</h3>
+                    <ul style ="line-height: 1.5vh; text-align : left;">
+                        
+                        <li>General Biology</li>
+                        <li>Microbiology</li>
+                        <li>Program Design</li>
+                        
+                    
+                    </ul>
+                </td>
+            </tr>
+        
+        
+        </table>
+    
+    </div>
+    <div style = "height: 5vh;">
+    </div>
+    <div class = "section-block">
+        <h2>Work Experience</h2>
+        <hr>
+        <table style = "width:100%">
+            <tr>
+                <td style = "width : 15vmin; padding-left:1%; padding-right:1.2%">
+                    <img src="ubccpsc.png" style = "width:100%; margin-right : 30%">
+                </td>
+                <td style = "text-align:left; text-align : left; line-height: 0.5vh; vertical-align: top;">
+                    <h3 style = "font-size:2.5vmin">UBC Dept. Computer Science</h3>
+                    <h3>Undergraduate Teaching Assistant </h3>
+                </td>
+                <td style = "text-align:right;line-height: 0.7vh; vertical-align: top;">
+                    <br>
+                    <p>September 2018 - Present</p>
+                    <p>Vancouver, BC</p>
+                </td>
+            </tr>
+            <tr>
+                <td style = "text-align:center;line-height: 0.5vh; vertical-align: top; padding-left:15%; padding-right: 15%" colspan = "3">
+                    <p>Organize and instruct students in software construction labs. Mentor students creating their first personal projects with Java. Invigilate and mark exams. Presently teaching software construction to computer science students, previously taught computing within the life sciences.</p>
+                </td>
+            </tr>
+            <tr style = "height:5vh;"></tr>
+            <tr>
+                <td style = "width : 15vmin; padding-left:1%; padding-right:1.2%">
+                    <img src="ubcmed.jpg" style = "width:100%; margin-right : 30%">
+                </td>
+                <td style = "text-align:left; text-align : left; line-height: 0.5vh; vertical-align: top;">
+                    <h3 style = "font-size:2.5vmin">UBC Dept. Medicine</h3>
+                    <h3>Bioinformatics Database Developer </h3>
+                </td>
+                <td style = "text-align:right;line-height: 0.7vh; vertical-align: top;">
+                    <br>
+                    <p>January 2019 - September 2019</p>
+                    <p>Vancouver, BC</p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style = "text-align:center;line-height: 0.5vh; vertical-align: top; padding-left:15%; padding-right: 15%" colspan = "3">
+                    <p>Designed and created a relational database to contain data relevant to drug resistance in Hepatitis C Virus. Developed a program that identifies the genotype, subtype, and mutations of a Hepatitis C DNA sequence. Co-authored a research abstract detailing the methods used for the HCV ReCall system.</p>
+                </td>
+            </tr>
+        </table>
+    
+    
+    
+    
+    </div>
+    
+    <script>
+    AOS.init();
+    </script>
+    
+    
+</body>
 </html>
