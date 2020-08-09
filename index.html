@@ -54,7 +54,7 @@
         <hr>
         <table style = "width:100%">
             <tr>
-                <td class = "section-image-cell">
+                <td class = "section-image-cell" >
             <!--        ubc lol-->
                         <img src = "images/ubclogo.PNG" class = "section-image" alt = "UBC Crest">
 
@@ -67,12 +67,12 @@
             
                 
                 </td>
-                <td style="text-align : left; line-height: 0.5vh; vertical-align: top;">
+                <td class = "section-courses-cell">
 					<div style = "text-align: center; ">
 						<h3>Relevant Course Work:</h3>
 					</div>
                 
-					<div style = "display:flex;justify-content: center; align-items: center; align-content: center;">
+					<div class = "center-flex">
 						<ul style ="line-height: 0.7vh; text-align : left;">
                         
                         <p>Computation, Programs, and Programming</p>
@@ -94,12 +94,11 @@
                     
                 </td>
             </tr>
+			<tr style = "height:5vh;"></tr>
             <tr>
-                <td style = "width : 15vmin; padding-left:1%; padding-right:1.2%;">
-                    <div>
+                <td class = "section-image-cell">
             <!--        langurla-->
-                        <img src = "images/langaralogo.PNG" style = "width:100%" alt = "Langara Logo">
-                    </div>
+                        <img src = "images/langaralogo.PNG" class = "section-image" alt = "Langara Logo">
                 </td>
                 <td style="text-align : left; vertical-align: center;">
                     <h3 style = "line-height: 2vh;">Langara College</h3>
@@ -109,11 +108,11 @@
             
                 
                 </td>
-                <td style="text-align : left; line-height: 0.5vh; vertical-align: top;">
+                <td class = "section-courses-cell">
                 <div style = "text-align: center">
 						<h3>Relevant Course Work:</h3>
 					</div>
-                	<div style = "display:flex;justify-content: center; align-items: left; align-content: left; width:100%;">
+                	<div class = "center-flex" style = "width : 100%">
                     	<ul style ="line-height: 0.7vh; text-align : left;">
                         
 							<p>General Biology</p>
@@ -129,7 +128,7 @@
         </table>
     
     </div>
-    <div style = "height: 5vh;">
+    <div class = "buffer-block">
     </div>
     <div class = "section-block">
         <h2 class = "section-block-title">WORK EXPERIENCE</h2>
@@ -145,7 +144,7 @@
 					<br>
 					 <p>Organize and instruct students in software construction labs. Mentor students creating their first personal projects with Java. Invigilate and mark exams. Presently teaching software construction to computer science students, previously taught computing within the life sciences.</p>
                 </td>
-                <td style = "text-align:right;line-height: 0.7vh; vertical-align: top;">
+                <td style = "text-align:right;line-height: 0.7vh; vertical-align: top;width:20%;">
                     <br>
                     <p>September 2018 - Present</p>
                     <p>Vancouver, BC</p>
@@ -163,10 +162,10 @@
 					<br>
 					<p>Designed and created a relational database to contain data relevant to drug resistance in Hepatitis C Virus. Developed a program that identifies the genotype, subtype, and mutations of a Hepatitis C DNA sequence. Co-authored a research abstract detailing the methods used for the HCV ReCall system.</p>
                 </td>
-                <td style = "text-align:right;line-height: 0.7vh; vertical-align: top;">
+                <td style = "text-align:right;line-height: 0.7vh; vertical-align: top;width:20%;">
                     <br>
-                    <p style = "width:12vw">January 2019 - September 2019</p>
-                    <p style = "width:12vw">Vancouver, BC</p>
+                    <p>January 2019 - September 2019</p>
+                    <p>Vancouver, BC</p>
                 </td>
             </tr>
             
@@ -176,6 +175,51 @@
     
     
     </div>
+	<div class = "buffer-block"></div>
+	<div class = "section-block">
+		<h2 class = "section-block-title">PROJECTS</h2>
+		<hr>
+		<table>
+			<tr>
+				<td class = "section-image-cell">
+					<img src = "images/dna.png" class = "section-image" style = "border-radius: 50%;background: #FFFFFF" alt = "HCV Gene Cutter">
+				</td>
+				<td style="text-align : left; vertical-align: center;">
+                    <h3>SHARED HCV Gene Cutter</h3>
+					<p>Successfully genotypes and subtypes Hepatitis C Sequences according to the ICTV reference sequences.</p>
+					<p>Data gathered with the developed genotyping algorithm has been used to detect a flaw in the current
+						HCV genotyping methods used in clinics currently.</p>
+                </td>
+				<td style = "text-align:right;line-height: 0.7vh; vertical-align: top; width:20%;">
+                    <br>
+                    <p>January 2019 - September 2019</p>
+                    <p>Vancouver, BC</p>
+                </td>
+			
+			</tr>
+			<tr style = "height:5vh;"></tr>
+			<tr>
+				<td class = "section-courses-cell">
+					<img src = "images/rubik.png" class = "section-image" style="border-radius: 50%; background: #FFFFFF" alt = "Rubik's Cube">
+				</td>
+				<td style="text-align : left; vertical-align: center;">
+                    <h3>Rubik’s Cube Solver</h3>
+					<p>Uses Herbert Kociemba’s two phase algorithm for finding solutions to a given Rubik’s cube. The algorithm
+						takes in any proper 3x3x3 Rubik’s cube of arbitrary colour and will find a solution that is 21 moves or
+						less in under 0.5 seconds.</p>
+
+                </td>
+				<td style = "text-align:right;line-height: 0.7vh; vertical-align: top; width:20%;">
+                    <br>
+                    <p>July 2018 - September 2018</p>
+                    <p>Vancouver, BC</p>
+                </td>
+			</tr>
+		
+		</table>
+	
+	
+	</div>
     
     <script>
     AOS.init();
