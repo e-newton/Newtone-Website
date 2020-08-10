@@ -25,7 +25,7 @@ body{
         color: #FFFFFF;
         font-size: 8vmin;
         font-weight: 300;
-        line-height:0vh;
+/*        line-height:0vh;*/
     }
     
     h3{
@@ -1502,7 +1502,6 @@ body{
     
     #introduction{
         text-align:center;
-        line-height:0vh;
         margin-top: 50vmin;
         animation-name: introFade;
         animation-delay: 1s;
@@ -1648,5 +1647,5 @@ body{
 }
 
 .buffer-block {
-	height:5vh;
+	height:5vmin;
 }
