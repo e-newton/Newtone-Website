@@ -1,4 +1,7 @@
 /* CSS Document */
+html{
+	overflow-x: hidden;
+}
 
 body{
         background: #222831;
@@ -60,30 +63,1439 @@ body{
     }
     .rain{
         position:absolute;
-        height:2000px;
+        height:425vh;
         width:100%;
         top:0px;
         bottom:0px;
+		z-index: -1;
     }
     
     
     
 
+
+
    .drop0{
-        left: 2%;
+        left: 41%;
         position: absolute;
         animation-name:dropping0;
-        animation-duration: 2s;
+        animation-duration: 2.056442024938929s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in;
         
         
     }
     @keyframes dropping0{
-        from{top:-10%}
-        to{top: 450vh}
+        from{top:-79%}
+        to{top: 412vh}
         
-    } 
+    }
+
+
+
+
+   .drop1{
+        left: 99%;
+        position: absolute;
+        animation-name:dropping1;
+        animation-duration: 2.950683092944544s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping1{
+        from{top:-165%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop2{
+        left: 71%;
+        position: absolute;
+        animation-name:dropping2;
+        animation-duration: 4.5894554653788795s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping2{
+        from{top:-227%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop3{
+        left: 78%;
+        position: absolute;
+        animation-name:dropping3;
+        animation-duration: 4.382284214628388s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping3{
+        from{top:-156%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop4{
+        left: 61%;
+        position: absolute;
+        animation-name:dropping4;
+        animation-duration: 3.8177599273895284s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping4{
+        from{top:-88%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop5{
+        left: 59%;
+        position: absolute;
+        animation-name:dropping5;
+        animation-duration: 5.83070556843671s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping5{
+        from{top:-61%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop6{
+        left: 88%;
+        position: absolute;
+        animation-name:dropping6;
+        animation-duration: 2.859315418160049s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping6{
+        from{top:-145%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop7{
+        left: 97%;
+        position: absolute;
+        animation-name:dropping7;
+        animation-duration: 4.8434522684889085s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping7{
+        from{top:-228%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop8{
+        left: 61%;
+        position: absolute;
+        animation-name:dropping8;
+        animation-duration: 5.629117342111359s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping8{
+        from{top:-211%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop9{
+        left: 37%;
+        position: absolute;
+        animation-name:dropping9;
+        animation-duration: 2.0175328409567883s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping9{
+        from{top:-172%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop10{
+        left: 4%;
+        position: absolute;
+        animation-name:dropping10;
+        animation-duration: 4.539578260724151s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping10{
+        from{top:-75%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop11{
+        left: 56%;
+        position: absolute;
+        animation-name:dropping11;
+        animation-duration: 4.453016587956027s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping11{
+        from{top:-117%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop12{
+        left: 8%;
+        position: absolute;
+        animation-name:dropping12;
+        animation-duration: 3.120747842557707s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping12{
+        from{top:-44%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop13{
+        left: 29%;
+        position: absolute;
+        animation-name:dropping13;
+        animation-duration: 3.365590604685274s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping13{
+        from{top:-73%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop14{
+        left: 53%;
+        position: absolute;
+        animation-name:dropping14;
+        animation-duration: 2.1975371150429552s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping14{
+        from{top:-280%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop15{
+        left: 72%;
+        position: absolute;
+        animation-name:dropping15;
+        animation-duration: 3.4300816776239933s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping15{
+        from{top:-247%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop16{
+        left: 71%;
+        position: absolute;
+        animation-name:dropping16;
+        animation-duration: 2.2930011810830075s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping16{
+        from{top:-220%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop17{
+        left: 7%;
+        position: absolute;
+        animation-name:dropping17;
+        animation-duration: 5.043900664254118s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping17{
+        from{top:-227%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop18{
+        left: 33%;
+        position: absolute;
+        animation-name:dropping18;
+        animation-duration: 4.019698972396391s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping18{
+        from{top:-293%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop19{
+        left: 18%;
+        position: absolute;
+        animation-name:dropping19;
+        animation-duration: 3.536875126451128s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping19{
+        from{top:-132%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop20{
+        left: 43%;
+        position: absolute;
+        animation-name:dropping20;
+        animation-duration: 2.9682894026432725s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping20{
+        from{top:-29%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop21{
+        left: 72%;
+        position: absolute;
+        animation-name:dropping21;
+        animation-duration: 3.0026879262490023s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping21{
+        from{top:-192%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop22{
+        left: 38%;
+        position: absolute;
+        animation-name:dropping22;
+        animation-duration: 3.738194001430595s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping22{
+        from{top:-96%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop23{
+        left: 60%;
+        position: absolute;
+        animation-name:dropping23;
+        animation-duration: 2.0968983214151993s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping23{
+        from{top:-300%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop24{
+        left: 14%;
+        position: absolute;
+        animation-name:dropping24;
+        animation-duration: 4.230436559512415s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping24{
+        from{top:-209%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop25{
+        left: 28%;
+        position: absolute;
+        animation-name:dropping25;
+        animation-duration: 3.7146291183467586s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping25{
+        from{top:-82%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop26{
+        left: 23%;
+        position: absolute;
+        animation-name:dropping26;
+        animation-duration: 2.848305738355833s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping26{
+        from{top:-64%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop27{
+        left: 35%;
+        position: absolute;
+        animation-name:dropping27;
+        animation-duration: 3.451823675257395s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping27{
+        from{top:-132%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop28{
+        left: 95%;
+        position: absolute;
+        animation-name:dropping28;
+        animation-duration: 4.6364071722363995s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping28{
+        from{top:-239%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop29{
+        left: 24%;
+        position: absolute;
+        animation-name:dropping29;
+        animation-duration: 5.562224806827389s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping29{
+        from{top:-147%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop30{
+        left: 71%;
+        position: absolute;
+        animation-name:dropping30;
+        animation-duration: 5.404822613875927s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping30{
+        from{top:-138%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop31{
+        left: 44%;
+        position: absolute;
+        animation-name:dropping31;
+        animation-duration: 3.697472458162673s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping31{
+        from{top:-224%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop32{
+        left: 47%;
+        position: absolute;
+        animation-name:dropping32;
+        animation-duration: 2.096278732786411s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping32{
+        from{top:-256%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop33{
+        left: 55%;
+        position: absolute;
+        animation-name:dropping33;
+        animation-duration: 5.5041236678646115s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping33{
+        from{top:-93%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop34{
+        left: 33%;
+        position: absolute;
+        animation-name:dropping34;
+        animation-duration: 2.3134920464872986s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping34{
+        from{top:-127%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop35{
+        left: 7%;
+        position: absolute;
+        animation-name:dropping35;
+        animation-duration: 4.831907449225039s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping35{
+        from{top:-286%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop36{
+        left: 38%;
+        position: absolute;
+        animation-name:dropping36;
+        animation-duration: 4.811517893394722s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping36{
+        from{top:-241%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop37{
+        left: 28%;
+        position: absolute;
+        animation-name:dropping37;
+        animation-duration: 5.994669553785354s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping37{
+        from{top:-164%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop38{
+        left: 25%;
+        position: absolute;
+        animation-name:dropping38;
+        animation-duration: 3.489804422957692s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping38{
+        from{top:-159%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop39{
+        left: 10%;
+        position: absolute;
+        animation-name:dropping39;
+        animation-duration: 5.407382623208164s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping39{
+        from{top:-89%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop40{
+        left: 53%;
+        position: absolute;
+        animation-name:dropping40;
+        animation-duration: 2.1287776274393875s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping40{
+        from{top:-121%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop41{
+        left: 95%;
+        position: absolute;
+        animation-name:dropping41;
+        animation-duration: 3.6988188354696687s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping41{
+        from{top:-61%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop42{
+        left: 62%;
+        position: absolute;
+        animation-name:dropping42;
+        animation-duration: 4.911084073073383s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping42{
+        from{top:-115%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop43{
+        left: 90%;
+        position: absolute;
+        animation-name:dropping43;
+        animation-duration: 5.73397969490042s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping43{
+        from{top:-208%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop44{
+        left: 83%;
+        position: absolute;
+        animation-name:dropping44;
+        animation-duration: 3.0968913354718817s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping44{
+        from{top:-172%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop45{
+        left: 97%;
+        position: absolute;
+        animation-name:dropping45;
+        animation-duration: 5.77126341850744s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping45{
+        from{top:-53%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop46{
+        left: 50%;
+        position: absolute;
+        animation-name:dropping46;
+        animation-duration: 2.606829885525816s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping46{
+        from{top:-126%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop47{
+        left: 66%;
+        position: absolute;
+        animation-name:dropping47;
+        animation-duration: 2.300102983864854s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping47{
+        from{top:-8%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop48{
+        left: 46%;
+        position: absolute;
+        animation-name:dropping48;
+        animation-duration: 4.210822732978355s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping48{
+        from{top:-243%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop49{
+        left: 37%;
+        position: absolute;
+        animation-name:dropping49;
+        animation-duration: 5.697336422603086s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping49{
+        from{top:-201%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop50{
+        left: 21%;
+        position: absolute;
+        animation-name:dropping50;
+        animation-duration: 3.8795404492163175s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping50{
+        from{top:-29%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop51{
+        left: 1%;
+        position: absolute;
+        animation-name:dropping51;
+        animation-duration: 5.723939996572934s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping51{
+        from{top:-260%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop52{
+        left: 15%;
+        position: absolute;
+        animation-name:dropping52;
+        animation-duration: 4.465862083649132s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping52{
+        from{top:-63%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop53{
+        left: 4%;
+        position: absolute;
+        animation-name:dropping53;
+        animation-duration: 4.793740753968816s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping53{
+        from{top:-64%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop54{
+        left: 65%;
+        position: absolute;
+        animation-name:dropping54;
+        animation-duration: 3.005585131519429s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping54{
+        from{top:-199%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop55{
+        left: 35%;
+        position: absolute;
+        animation-name:dropping55;
+        animation-duration: 4.669866026291011s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping55{
+        from{top:-273%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop56{
+        left: 75%;
+        position: absolute;
+        animation-name:dropping56;
+        animation-duration: 3.706669895755019s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping56{
+        from{top:-73%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop57{
+        left: 93%;
+        position: absolute;
+        animation-name:dropping57;
+        animation-duration: 2.34908682947223s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping57{
+        from{top:-237%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop58{
+        left: 37%;
+        position: absolute;
+        animation-name:dropping58;
+        animation-duration: 3.3017883158693073s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping58{
+        from{top:-248%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop59{
+        left: 44%;
+        position: absolute;
+        animation-name:dropping59;
+        animation-duration: 5.80653199099708s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping59{
+        from{top:-150%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop60{
+        left: 13%;
+        position: absolute;
+        animation-name:dropping60;
+        animation-duration: 3.8991721759600577s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping60{
+        from{top:-276%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop61{
+        left: 62%;
+        position: absolute;
+        animation-name:dropping61;
+        animation-duration: 5.261510249605155s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping61{
+        from{top:-252%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop62{
+        left: 76%;
+        position: absolute;
+        animation-name:dropping62;
+        animation-duration: 5.510520704775079s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping62{
+        from{top:-23%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop63{
+        left: 76%;
+        position: absolute;
+        animation-name:dropping63;
+        animation-duration: 4.191514707539049s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping63{
+        from{top:-216%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop64{
+        left: 93%;
+        position: absolute;
+        animation-name:dropping64;
+        animation-duration: 5.581252603851965s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping64{
+        from{top:-112%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop65{
+        left: 58%;
+        position: absolute;
+        animation-name:dropping65;
+        animation-duration: 3.2406434122674126s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping65{
+        from{top:-214%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop66{
+        left: 9%;
+        position: absolute;
+        animation-name:dropping66;
+        animation-duration: 5.575086254238025s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping66{
+        from{top:-216%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop67{
+        left: 20%;
+        position: absolute;
+        animation-name:dropping67;
+        animation-duration: 4.114756294330266s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping67{
+        from{top:-259%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop68{
+        left: 17%;
+        position: absolute;
+        animation-name:dropping68;
+        animation-duration: 2.109826978794403s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping68{
+        from{top:-197%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop69{
+        left: 45%;
+        position: absolute;
+        animation-name:dropping69;
+        animation-duration: 5.266363728974442s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping69{
+        from{top:-269%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop70{
+        left: 4%;
+        position: absolute;
+        animation-name:dropping70;
+        animation-duration: 4.555201502422305s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping70{
+        from{top:-30%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop71{
+        left: 99%;
+        position: absolute;
+        animation-name:dropping71;
+        animation-duration: 4.518172840496293s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping71{
+        from{top:-40%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop72{
+        left: 66%;
+        position: absolute;
+        animation-name:dropping72;
+        animation-duration: 3.907243385847958s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping72{
+        from{top:-14%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop73{
+        left: 52%;
+        position: absolute;
+        animation-name:dropping73;
+        animation-duration: 2.107128312453007s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping73{
+        from{top:-8%}
+        to{top: 412vh}
+        
+    }
+
+
+
+
+   .drop74{
+        left: 38%;
+        position: absolute;
+        animation-name:dropping74;
+        animation-duration: 5.706197515824629s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    @keyframes dropping74{
+        from{top:-217%}
+        to{top: 412vh}
+        
+    }
     
     
     #introduction{
