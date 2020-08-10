@@ -4,10 +4,6 @@
 <meta charset="utf-8">
 <title>Eric Newton</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
-      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"></script>
     <link href="aos.css" rel="stylesheet">
     <script src="aos.js"></script>
 	
@@ -19,7 +15,7 @@
     
     
     
-    <div class="rain">
+    <div id="rain">
 <!--        PUT RAIN HERE-->
         
         <div class = "drop0">
@@ -690,6 +686,20 @@
     <script>
     AOS.init();
     </script>
+	<script>
+		
+		var body = document.body,
+		html = document.documentElement;
+
+		var height = Math.max( body.scrollHeight, body.offsetHeight, 
+						   html.clientHeight, html.scrollHeight, html.offsetHeight );
+		
+		console.log("HELLO HERE IS HEIGHT OF PAGE: " + height);
+		
+		var rain = document.getElementById("rain");
+		rain.style.height = height;
+	
+	</script>
     
     
 </body>
