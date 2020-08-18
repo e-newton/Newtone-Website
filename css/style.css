@@ -71,6 +71,19 @@ body{
 		z-index: -1;
 		overflow: hidden
     }
+
+	.loadingBar{
+		background-color: white;
+		height : 1vh;
+	}
+
+	#javaBar{
+		background-color: #00adb5;
+		height : 100%;
+		width: 10%;
+		
+
+	}
     
     
     

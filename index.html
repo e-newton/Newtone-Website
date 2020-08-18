@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="aos.css" rel="stylesheet">
     <script src="aos.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
 	
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
@@ -509,8 +510,25 @@
         </table>
 
     </div>
+	<div class = "section-block">
+		<h2 class = "section-block-title">LANGUAGES</h2>
+        <hr>
+		<div style = "">
+			<p>Java</p>
+			<div class = "loadingBar">
+				<div id = "javaBar"></div>
+			</div>
+			
+		
+		</div>
+	
+	
+	</div>
+		
+	<div class  = "buffer-block"></div>
+	<!--    Education Panel-->
     <div class = "section-block">
-<!--    Education Panel-->
+
         <h2 class = "section-block-title">EDUCATION</h2>
         <hr>
         <table style = "width:100%">
@@ -589,8 +607,8 @@
         </table>
     
     </div>
-    <div class = "buffer-block">
-    </div>
+    <div class = "buffer-block"></div>
+<!--	Work Experience-->
     <div class = "section-block">
         <h2 class = "section-block-title">WORK EXPERIENCE</h2>
         <hr>
@@ -637,6 +655,7 @@
     
     </div>
 	<div class = "buffer-block"></div>
+<!--	Projects-->
 	<div class = "section-block">
 		<h2 class = "section-block-title">PROJECTS</h2>
 		<hr>
@@ -718,6 +737,46 @@
 		
 		var rain = document.getElementById("rain");
 		rain.style.height = height + "px";
+	
+	</script>
+	<script>
+		let animation = anime({
+			  targets: '#javaBar',
+			  // Properties 
+			  width:'90%',
+			  // Property Parameters
+			  duration: 2000,
+			  easing: 'easeOutBounce',
+			  // Animation Parameters
+			  direction: 'forward',
+			  autoplay: false,
+			
+			});  
+		
+		
+		function handleIntersection(entries) {
+		  // The callback will return an array of entries, even if you are only observing a single item
+		  entries.map((entry) => {
+			if (entry.isIntersecting) {
+			  entry.target.classList.add('visible')
+				
+				console.log(entries);
+			  entry.target.animation.play();
+			} else {
+			  entry.target.classList.remove('visible');
+			  entry.target.animation.reset();
+				
+			}
+		  });
+		}
+		const observer = new IntersectionObserver(handleIntersection);
+		
+		let bar = document.querySelector("#javaBar");
+		bar.animation = animation;
+		
+		observer.observe(bar);
+		
+		
 	
 	</script>
     
