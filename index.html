@@ -511,15 +511,115 @@
 
     </div>
 	<div class = "section-block">
-		<h2 class = "section-block-title">LANGUAGES</h2>
+		<h2 class = "section-block-title">SKILLS</h2>
         <hr>
-		<div style = "">
-			<p>Java</p>
-			<div class = "loadingBar">
-				<div id = "javaBar"></div>
+		<div  style = "display:flex">
+		<div style = "width:50%; margin-right:2.5%">
+			<h3>Language Proficiency</h3>
+			<div style = "">
+				<p>Java</p>
+				<div class = "loadingBar">
+					<div id = "javaBar"></div>
+				</div>
+
+
+			</div>
+			<div style = "">
+				<p>Python</p>
+				<div class = "loadingBar">
+					<div id = "pythonBar"></div>
+				</div>
+
+
+			</div>
+			<div style = "">
+				<p>JavaScript</p>
+				<div class = "loadingBar">
+					<div id = "javascriptBar"></div>
+				</div>
+
+
+			</div>
+			<div style = "">
+				<p>C / C++</p>
+				<div class = "loadingBar">
+					<div id = "cBar"></div>
+				</div>
+
+
+			</div>
+			<div style = "">
+				<p>HTML / CSS</p>
+				<div class = "loadingBar">
+					<div id = "htmlBar"></div>
+				</div>
+
+
+			</div>
+			<div style = "">
+				<p>C#</p>
+				<div class = "loadingBar">
+					<div id = "csharpBar"></div>
+				</div>
+
+
 			</div>
 			
-		
+		</div>
+		<div style = "width:50%">
+			<h3>Technologies</h3>
+			<div style = "">
+				<p>Git</p>
+				<div class = "loadingBar">
+					<div id = "gitBar"></div>
+				</div>
+
+
+			</div>
+			<div style = "">
+				<p>MySQL</p>
+				<div class = "loadingBar">
+					<div id = "sqlBar"></div>
+				</div>
+
+
+			</div>
+			<div style = "">
+				<p>UNIX</p>
+				<div class = "loadingBar">
+					<div id = "unixBar"></div>
+				</div>
+				
+			<div style = "">
+				<p>Unity</p>
+				<div class = "loadingBar">
+					<div id = "unityBar"></div>
+				</div>
+
+
+			</div>
+
+
+			</div>
+			<div style = "">
+				<p>Node.js</p>
+				<div class = "loadingBar">
+					<div id = "nodeBar"></div>
+				</div>
+
+
+			</div>
+			<div style = "">
+				<p>Adobe Dreamweaver</p>
+				<div class = "loadingBar">
+					<div id = "dreamBar"></div>
+				</div>
+
+
+			</div>
+
+			
+		</div>
 		</div>
 	
 	
@@ -740,7 +840,7 @@
 	
 	</script>
 	<script>
-		let animation = anime({
+		let animationBase = anime({
 			  targets: '#javaBar',
 			  // Properties 
 			  width:'90%',
@@ -753,28 +853,102 @@
 			
 			});  
 		
+		function createAnimation(target, percent){
+			return anime({
+			  targets: target,
+			  // Properties 
+			  width:percent,
+			  // Property Parameters
+			  duration: 2000,
+			  easing: 'easeOutBounce',
+			  // Animation Parameters
+			  direction: 'forward',
+			  autoplay: false,
+			
+			});
+		}
+		
 		
 		function handleIntersection(entries) {
 		  // The callback will return an array of entries, even if you are only observing a single item
 		  entries.map((entry) => {
 			if (entry.isIntersecting) {
 			  entry.target.classList.add('visible')
-				
-				console.log(entries);
-			  entry.target.animation.play();
+				if(!entry.target.seen){
+					entry.target.animation.play();
+					entry.target.seen = true;
+				}
+
 			} else {
 			  entry.target.classList.remove('visible');
-			  entry.target.animation.reset();
+			  //entry.target.animation.reset();
 				
 			}
 		  });
 		}
 		const observer = new IntersectionObserver(handleIntersection);
 		
-		let bar = document.querySelector("#javaBar");
-		bar.animation = animation;
+		let java = document.querySelector("#javaBar");
+		java.animation = createAnimation('#javaBar', '95%');
+		java.seen = false;
+		observer.observe(java);
 		
-		observer.observe(bar);
+		let python = document.querySelector("#pythonBar");
+		python.animation = createAnimation('#pythonBar', '90%');
+		python.seen = false;
+		observer.observe(python);
+		
+		let javascript = document.querySelector("#javascriptBar");
+		javascript.animation = createAnimation('#javascriptBar', '80%');
+		javascript.seen = false;
+		observer.observe(javascript);
+		
+		let htmlcss = document.querySelector("#htmlBar");
+		htmlcss.animation = createAnimation('#htmlBar', '60%');
+		htmlcss.seen = false;
+		observer.observe(htmlcss);
+		
+		let c = document.querySelector("#cBar");
+		c.animation = createAnimation('#cBar', '60%');
+		c.seen = false;
+		observer.observe(c);
+		
+		let csharp = document.querySelector("#csharpBar");
+		csharp.animation = createAnimation('#csharpBar', '40%');
+		csharp.seen = false;
+		observer.observe(csharp);
+		
+		let git = document.querySelector("#gitBar");
+		git.animation = createAnimation('#gitBar', '95%');
+		git.seen = false;
+		observer.observe(git);
+		
+		let sql = document.querySelector("#sqlBar");
+		sql.animation = createAnimation('#sqlBar', '95%');
+		sql.seen = false;
+		observer.observe(sql);
+		
+		let unix = document.querySelector("#unixBar");
+		unix.animation = createAnimation('#unixBar', '95%');
+		unix.seen = false;
+		observer.observe(unix);
+		
+		let node = document.querySelector("#nodeBar");
+		node.animation = createAnimation('#nodeBar', '60%');
+		node.seen = false;
+		observer.observe(node);
+		
+		let unity = document.querySelector("#unityBar");
+		unity.animation = createAnimation('#unityBar', '60%');
+		unity.seen = false;
+		observer.observe(unity);
+		
+		let dream = document.querySelector("#dreamBar");
+		dream.animation = createAnimation('#dreamBar', '50%');
+		dream.seen = false;
+		observer.observe(dream);
+		
+		
 		
 		
 	

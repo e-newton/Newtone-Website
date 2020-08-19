@@ -82,7 +82,77 @@ body{
 		height : 100%;
 		width: 10%;
 		
+	}
 
+	#pythonBar{
+			background-color: #00adb5;
+			height : 100%;
+			width: 10%;
+
+		}
+	#javascriptBar{
+		background-color: #00adb5;
+		height : 100%;
+		width: 10%;
+		
+	}
+	#cBar{
+		background-color: #00adb5;
+		height : 100%;
+		width: 10%;
+		
+	}
+	#htmlBar{
+		background-color: #00adb5;
+		height : 100%;
+		width: 10%;
+		
+	}
+	
+	#csharpBar{
+		background-color: #00adb5;
+		height : 100%;
+		width: 10%;
+		
+	}
+
+	#gitBar{
+		background-color: #00adb5;
+		height : 100%;
+		width: 10%;
+		
+	}
+
+	#sqlBar{
+			background-color: #00adb5;
+			height : 100%;
+			width: 10%;
+
+		}
+	#unixBar{
+		background-color: #00adb5;
+		height : 100%;
+		width: 10%;
+		
+	}
+	#nodeBar{
+		background-color: #00adb5;
+		height : 100%;
+		width: 10%;
+		
+	}
+	#dreamBar{
+		background-color: #00adb5;
+		height : 100%;
+		width: 10%;
+		
+	}
+	
+	#unityBar{
+		background-color: #00adb5;
+		height : 100%;
+		width: 10%;
+		
 	}
     
     
